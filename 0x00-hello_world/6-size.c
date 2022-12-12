@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ *  * main - Prints the sizes in bytes of all the data types
+ *   * Return: Exit status is zero if successful
+ *    */
 int main(void)
 {
 	printf("Size of a char: %lu byte(s)\n", sizeof(char));
