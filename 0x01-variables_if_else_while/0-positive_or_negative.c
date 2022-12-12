@@ -6,7 +6,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - Print number is negative or positive or zero
- * Return - Exit status zero if succesfull
+ * Return: Exit status zero if succesfull
  */
 int main(void)
 {
@@ -25,7 +25,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%d is  zero\n", n);
+		printf("%d is zero\n", n);
 	}
 	return (0);
 }
