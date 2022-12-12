@@ -6,7 +6,7 @@
 /* betty style doc for function main goes here */
 /**
  * main - Print number is negative or positive or zero
- * Return - Exits status zero if succesfull
+ * Return - Exit status zero if succesfull
  */
 int main(void)
 {
