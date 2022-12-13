@@ -5,7 +5,8 @@
  * Return: Exits status is zero if succesful
  */
 int main(void)
-{	int i;
+{	
+	int i;
 	int j;
 	int k;
 
