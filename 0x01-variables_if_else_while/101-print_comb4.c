@@ -2,10 +2,11 @@
 
 /**
  * main - This program prints all decimal
- * Return: Exits status is zero if succesful
+ * digits without using printf
+ * Return: Exit status is zero if successful
  */
 int main(void)
-{	
+{
 	int i;
 	int j;
 	int k;
@@ -16,12 +17,12 @@ int main(void)
 		{
 			for (k = 50; k <= 57; k++)
 			{
-				if (i >= j) || (j <= k)
+				if ((i >= j) || (j >= k))
 					continue;
 				putchar(i);
 				putchar(j);
 				putchar(k);
-				if ((k = 57) && (j = 56))
+				if ((k == 57) && (j == 56))
 				{
 					if (i == 55)
 						break;
