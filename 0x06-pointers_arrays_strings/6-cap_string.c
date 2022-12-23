@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * cap_string - This Capitalizes any begining of a word
  * @s: This is the string
  *
