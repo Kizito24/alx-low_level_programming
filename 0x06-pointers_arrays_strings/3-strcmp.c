@@ -5,7 +5,7 @@
  * @s1: This is the first string
  * @s2: This is the second string
  *
- * Return: An int, 0 if equal, +ve is 1 > 2 
+ * Return: An int, 0 if equal, +ve is 1 > 2
  * -ve if 1 < 2
  */
 int _strcmp(char *s1, char *s2)
