@@ -1,11 +1,10 @@
-#include <stdio.h>
 #include "main.h"
 
 /*
- * _memset() - Function to fill out a buffer using a constant with a specified size
- * @n - specified size in bytes
- * @s - points out the buffer
- * @b - char to be used to fill the buffer
+ * _memset() - Function to fill out a buffer with constant of specific size
+ * @n: specified size in bytes
+ * @s: points out the buffer
+ * @b: char to be used to fill the buffer
  *
  * Return: the pointer to s memory area
  */
@@ -18,5 +17,6 @@ char *_memset(char *s, char b, unsigned int n)
 	{
 		s[i] = b;
 	}
+
 	return (s);
 }
