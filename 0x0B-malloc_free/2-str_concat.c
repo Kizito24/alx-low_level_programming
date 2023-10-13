@@ -24,6 +24,7 @@ char *str_concat(char *s1, char *s2)
 		continue;
 
 	new_str_len = (i + j) + 1;
+	printf("string length = %d\n", new_str_len);
 
 	new_str = malloc(new_str_len);
 	if (new_str == NULL)
@@ -37,11 +38,16 @@ char *str_concat(char *s1, char *s2)
 		counter++;
 
 	}
+
+	printf("counter length = %d\n", counter);
+
+
 	for (k = 0; k < j; k++)
 	{
 		new_str[counter] = s2[k];
 		counter++;
 	}
+	printf("new counter length = %d\n", counter);
 
 	new_str[counter] = '\0';
 
