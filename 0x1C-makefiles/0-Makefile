@@ -1,8 +1,5 @@
 #Makefile for building executable
 
-SRC := school.c main.c
-BINS := school
-
 all:
 	@echo "Building executable"
 	gcc main.c school.c -o school 

@@ -1,0 +1,9 @@
+#Usage:
+#make	 #compile all binary
+
+CC = gcc
+SRC= $(wildcard *.c)
+
+all:
+	@echo "Compiling..."
+	${CC} ${SRC} -o school
